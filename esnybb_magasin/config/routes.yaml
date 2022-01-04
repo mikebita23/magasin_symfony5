@@ -1,3 +1,7 @@
 index:
     path: /index
     controller: App\Controller\IndexController::Hello
+
+helloName:
+  path: /index/{name}
+  controller: App\Controller\IndexController::helloName
